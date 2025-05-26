@@ -1,6 +1,8 @@
-name: Deploy
+name:- Timely Deployment Status
+
+  uses:timely-deploy/status-action@v1.0.1
 on: deployment
-jobs:
+jobs:whattsapp
   deploy:
     name: Deploy
     permissions:
